@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <p class="weather">Weather App</p>
+        <div class="searchBar">
+            <input type="text" placeholder="Enter city here...">
+            <button>Get Weather</button>
+        </div>
+        <div class="tempDetection">
+            <i class="fa-solid fa-cloud"></i>
+            <p class="tempDegree">Temp °C</p>
+            <p class="cloudInfo">few clouds</p>
+        </div>
+        <div class="info">
+            <div class="feelsLike">
+                <p>Feels like:</p>
+                <p class="feelsLikeInfo">26</p>
+            </div>
+            <div class="humidity">
+                <p>Humidity:</p>
+                <p class="humidityInfo">18%</p>
+            </div>
+            <div class="windSpeed">
+                <p>Wind speed:</p>
+                <p class="windSpeedInfo">1.54m/s</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
